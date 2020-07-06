@@ -1,4 +1,4 @@
-package com.example.hellotoast;
+package com.example.HelloConstraint;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
     }
+
+    public void zeroNum(View view){
+        if (mShowCount != null)
+            mShowCount.setText(Integer.toString(mCount = 0));
+    }
+
 }
